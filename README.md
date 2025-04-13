@@ -1,24 +1,24 @@
-# 📊 Market NLP Strategy Simulator
+#  Market NLP Strategy Simulator
 
 **Analyse NLP & Marché** — Détection d’anomalies et stratégie ML sur plusieurs actifs financiers.
 
 ---
 
-## 🔍 Description
+##  Description
 
 Ce projet combine :
 
-- 🔎 Scraping Reddit pour estimer le **sentiment de marché**
-- 🧠 Traitement NLP avec `nltk` et VADER
-- ⚠️ Détection d’anomalies via `IsolationForest`
-- 📈 Modélisation de stratégie de trading avec `RandomForestClassifier`
-- 🎯 Visualisation interactive avec **Streamlit**
+-  Scraping Reddit pour estimer le **sentiment de marché**
+-  Traitement NLP avec `nltk` et VADER
+-  Détection d’anomalies via `IsolationForest`
+-  Modélisation de stratégie de trading avec `RandomForestClassifier`
+-  Visualisation interactive avec **Streamlit**
 
 Le but : évaluer si le sentiment en ligne améliore une stratégie d’investissement par rapport à un simple buy & hold.
 
 ---
 
-## 🗂️ Structure du projet
+##  Structure du projet
 
 ```bash
 .
@@ -33,17 +33,17 @@ Le but : évaluer si le sentiment en ligne améliore une stratégie d’investis
 
 
 
-🚀 Lancer l'application Streamlit
+Lancer l'application Streamlit
 
 streamlit run app/streamlit_app.py
 
 
 
-🔁 Scraping Reddit + Agrégation de sentiment
+Scraping Reddit + Agrégation de sentiment
 
 python src/data_collection/build_asset_datasets.py
 
-📉 Téléchargement des prix via yfinance
+Téléchargement des prix via yfinance
 
 python src/data_collection/fetch_price_data.py
 
