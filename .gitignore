@@ -1,0 +1,7 @@
+# Ignore data and cache
+/data/
+*.csv
+__pycache__/
+.env
+.DS_Store
+
